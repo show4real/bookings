@@ -376,7 +376,7 @@ export class PosOrderIndex extends Component {
           </Row>
           <Row>
             <Col lg="7">
-              <h6>Games({total})</h6>
+              <h6>Games/Refreshments({total})</h6>
             </Col>
           </Row>
           <Row></Row>
@@ -552,7 +552,7 @@ export class PosOrderIndex extends Component {
 
                   {bookings.length == 0 ? (
                     <>
-                      <div style={{ maxHeight: "200px", overflowY: "auto" }}>
+                      <div style={{ maxHeight: "400px", overflowY: "auto" }}>
                         <Table responsive className="table-nowrap rounded mb-0">
                           <thead className="thead-light">
                             <tr>
@@ -667,7 +667,7 @@ export class PosOrderIndex extends Component {
                             >
                               
                               
-                              <Col md={4}>
+                              <Col md={6}>
                                 <Form.Group>
                                   <Form.Label>Mode of payment</Form.Label>
 
@@ -695,21 +695,8 @@ export class PosOrderIndex extends Component {
                                   </Form.Select>
                                 </Form.Group>
                               </Col>
-                            </Row>
-                          </tr>
-                          <tr>
-                            {cartItem.length > 0 && (
-                              <Row
-                                style={{
-                                  // border: "1px #eee solid",
-                                  padding: "10px 5px 0px",
-                                  margin: "10px 15px",
-                                  borderRadius: 7,
-                                }}
-                              >
-                                
-                                <Col md={10}></Col>
-                                <Col md={2}>
+                              <Col md={2}></Col>
+                              <Col md={2}>
                                   <div style={{ paddingTop: 30 }}>
                                     {cartItem.length > 0 ? (
                                       <div>
@@ -727,9 +714,9 @@ export class PosOrderIndex extends Component {
                                     )}
                                   </div>
                                 </Col>
-                              </Row>
-                            )}
+                            </Row>
                           </tr>
+                         
                         </Table>
                       </div>
                     </>

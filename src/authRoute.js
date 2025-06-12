@@ -66,7 +66,7 @@ export let routes = [
   {
     path: "/games",
     component: Product,
-    title: "Games",
+    title: "Refreshment & Play",
     icon: faPlaystation,
   },
   {

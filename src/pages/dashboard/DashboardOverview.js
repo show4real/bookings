@@ -98,7 +98,7 @@ formatCurrency(x){
   
           <Col xs={12} sm={6} xl={4} className="mb-4">
             <CounterWidget
-              category="Games"
+              category="Games / Refreshments"
               title={game_count}
               percentage={28.4}
               icon={faProductHunt}

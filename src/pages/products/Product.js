@@ -107,7 +107,7 @@ export class Product extends Component {
                   }}
                 >
                   <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                  <Breadcrumb.Item href="#games">Games</Breadcrumb.Item>
+                  <Breadcrumb.Item href="#games">Refreshments & Play</Breadcrumb.Item>
                 </Breadcrumb>
               </div>
               <div className="btn-toolbar mb-2 mb-md-0">
@@ -117,7 +117,7 @@ export class Product extends Component {
                     size="sm"
                     onClick={() => this.toggleAddGames()}
                   >
-                    Add Games
+                    Add Refreshments / Play
                   </Button>
                 </ButtonGroup>
               </div>
@@ -126,7 +126,7 @@ export class Product extends Component {
         </Row>
         <Row>
           <Col lg="6">
-            <h6>Games({total})</h6>
+            <h6>Items({total})</h6>
           </Col>
         </Row>
 
@@ -139,7 +139,7 @@ export class Product extends Component {
               <thead className="thead-light">
                 <tr>
                   <th className="border-0">S/N</th>
-                  <th className="border-0">Game</th>
+                  <th className="border-0">Game/Refreshments</th>
                   <th className="border-0">Price</th>
                 </tr>
               </thead>
