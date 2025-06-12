@@ -126,7 +126,7 @@ export class AddProduct extends Component {
           {loading && <SpinDiv text={"Saving..."} />}
           <div className="modal-header" style={{ padding: "1rem" }}>
             <div className="btn-toolbar mb-2 mb-md-0">
-              <h5> Create Game </h5>
+              <h5> Create Game / Refreshments </h5>
             </div>
 
             <button
